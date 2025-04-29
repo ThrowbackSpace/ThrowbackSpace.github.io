@@ -55,12 +55,12 @@ p, ul:not(nav .links):not(footer .links) li{
 }
 
 nav {
-  color: $background-color;
+  color: $nav-title-color;
   font-size: max(72%, 12px);
 }
 
 nav .top {
-  background: $link-color;
+  background: $nav-top-color;
   padding: 15px 10px 14px 10px;
 }
 
@@ -85,7 +85,7 @@ nav .links li {
 }
 
 nav .links a {
-  color: $background-color;
+  color: $nav-links-color;
 }
 
 nav .links a:hover {
@@ -137,17 +137,23 @@ footer p {
 
 .profile .contact .heading, .profile .table-section .heading {
   background: $border-color;
-  color: $background-color;
+  color: $left-heading-color;
   padding: 2px 7px;
+}
+
+.details-table {
+  background: $details-table-background-color;
 }
 
 .details-table td:first-child {
   font-weight: bold;
   width: 33%;
+  background: $details-table-left-color;
 }
 
 .details-table td {
   vertical-align: top;
+  background: $details-table-color;
 }
 
 .details-table td p {
@@ -163,8 +169,8 @@ footer p {
 }
 
 .profile .blurbs .heading {
-  background: $primary-color;
-  color: $link-color-hover;
+  background: $right-heading-background-color;
+  color: $right-heading-color;
   padding: 2px 7px;
 }
 
@@ -178,7 +184,7 @@ footer p {
 
 .profile .blurbs .section h4 {
   margin: 0;
-  color: $link-color-hover;
+  color: $right-heading-color;
 }
 
 .profile .blurbs .section p {
