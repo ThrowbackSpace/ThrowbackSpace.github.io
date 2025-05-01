@@ -94,7 +94,7 @@ nav .links a:hover {
 }
 
 main {
-  background-color: $background-color;
+  background-color: $foreground-color;
   padding: 6px 0px;
   font-size: 80%;
 }
@@ -140,10 +140,6 @@ footer p {
   background: $border-color;
   color: $left-heading-color;
   padding: 2px 7px;
-}
-
-.details-table {
-  background: $details-table-background-color;
 }
 
 .details-table td:first-child {

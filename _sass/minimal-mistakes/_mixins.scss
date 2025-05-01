@@ -82,11 +82,11 @@
 }
 
 @mixin yiq-contrasted(
-  $background-color,
+  $foreground-color,
   $dark: $yiq-contrasted-dark-default,
   $light: $yiq-contrasted-light-default,
   $threshold: $yiq-contrasted-threshold
 ) {
-  background-color: $background-color;
-  color: yiq-contrast-color($background-color, $dark, $light, $threshold);
+  background-color: $foreground-color;
+  color: yiq-contrast-color($foreground-color, $dark, $light, $threshold);
 }

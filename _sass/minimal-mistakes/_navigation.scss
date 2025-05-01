@@ -176,7 +176,7 @@
   -ms-flex-align: center;
   align-items: center;
   min-height: $nav-height;
-  background: $background-color;
+  background: $foreground-color;
 
   a {
     display: block;
@@ -266,7 +266,7 @@
     padding: 5px;
     border: 1px solid $border-color;
     border-radius: $border-radius;
-    background: $background-color;
+    background: $foreground-color;
     -webkit-box-shadow: 0 2px 4px 0 rgba(#000, 0.16),
       0 2px 10px 0 rgba(#000, 0.12);
     box-shadow: 0 2px 4px 0 rgba(#000, 0.16), 0 2px 10px 0 rgba(#000, 0.12);
@@ -307,7 +307,7 @@
       width: 0;
       border-style: solid;
       border-width: 0 10px 10px;
-      border-color: $background-color transparent;
+      border-color: $foreground-color transparent;
       display: block;
       z-index: 1;
     }
@@ -505,7 +505,7 @@
 .toc {
   font-family: $sans-serif-narrow;
   color: $gray;
-  background-color: $background-color;
+  background-color: $foreground-color;
   border: 1px solid $border-color;
   border-radius: $border-radius;
   -webkit-box-shadow: $box-shadow;
