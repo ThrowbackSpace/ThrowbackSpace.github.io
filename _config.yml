@@ -20,7 +20,7 @@ title                    : "Site Title"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Your Name"
-description              : "An amazing website."
+description              : "Website description."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -124,11 +124,6 @@ author:
       content: "Lorem ipsum!"
     - label: "Heroes"
       content: ""
-  blurbs:
-    - label: "About me"
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    - label: "Who I'd like to meet"
-      content: "Lorem ipsum dolor sit amet!"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

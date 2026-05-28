@@ -4,11 +4,11 @@
 <div class="blurbs">
   <div class="heading"><h4>{{ author.name }}'s Blurbs</h4></div>
   <div class="inner">
-    {% for blurb in author.blurbs %}
     <div class="section">
-      <h4>{{blurb.label}}:</h4>
-      {{ blurb.content | markdownify }}
+      <h4>About me:</h4>
     </div>
-    {% endfor %}
+    <div class="section">
+      <h4>Who I'd like to meet:<h4>
+    </div>
   </div>
 </div>
